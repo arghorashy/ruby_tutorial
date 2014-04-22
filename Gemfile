@@ -37,8 +37,8 @@ group :doc do
 end
 
 # Removed these because I didn't want to deal with postgresql and pg, which seems to be difficult to install
-#group :production do
-#  gem 'pg', '0.15.1'
-#  gem 'rails_12factor', '0.0.2'
-#end
+group :production do
+  gem 'pg', '0.15.1'
+  gem 'rails_12factor', '0.0.2'
+end
 
