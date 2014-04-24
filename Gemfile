@@ -10,11 +10,13 @@ gem 'rails', '4.1.0'
   gem 'pg', '0.15.1'
   gem 'rails_12factor', '0.0.2'
   gem 'rspec-rails', '2.13.1'
+  gem 'guard-rspec', '2.5.0'
 
 
 group :test do
   gem 'selenium-webdriver', '2.35.1'
   gem 'capybara', '2.1.0'
+  gem 'growl', '1.0.3'
 end
 
 # Use SCSS for stylesheets
